@@ -45,6 +45,7 @@ let package = Package(
                 .target(name: "CMLXStructured"),
                 .product(name: "MLX", package: "mlx-swift"),
                 .product(name: "MLXLMCommon", package: "mlx-swift-lm"),
+                .product(name: "Hub", package: "swift-transformers"),
                 .product(name: "JSONSchema", package: "swift-json-schema")
             ]
         ),
